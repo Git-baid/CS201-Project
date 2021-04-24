@@ -45,7 +45,7 @@ int main() {
                 cout << "Please enter a valid character (x or o)" << endl;
             }
         } while(player_char.empty());
-        //Convert input to lowercase first character
+        //Convert input to lowercase first character (x or o)
         player_char = ::tolower(player_char.at(0));
 
         //assign AI opponent opposite character
